@@ -62,25 +62,7 @@ if ( first_check+4 %16==0 ){
 
       //Timer code -- useless
       if (count % 100 == 0) {
-        local_15c = 0;
-        while (local_15c < count / 0x4062) {
-          local_78[local_15c] = 0x3d;
-          local_15c = local_15c + 1;
-        }
-        local_78[local_15c] = 0x3e;
-        tVar2 = time((time_t *)0x0);
-        local_110 = tVar2 - temp_time;
-        local_140 = 0.00000000;
-        if ((local_110 != 0) && (count != 0)) {
-          local_140 = ((1648195.00000000 - (double)count) * (double)local_110) /
-                      (double)count;
-        }
-        local_154 = (int)local_140 / 60;
-        local_158 = (int)local_140 % 60;
-        printf((char *)(double)((float)count / 16482.00000000),"\r%s [%s] %.2f%% ETA %d:%d",
-               (undefined8 *)((long)&local_108 + (long)((count / 100) % 10) * 10),local_78,
-               (ulong)local_154,(ulong)local_158);
-        fflush(stdout);
+        ...
       }
 
       usleep(1000);
