@@ -152,6 +152,6 @@ The next condition checks a part of `input_buff` for a value and then subsequent
            }
 ```
 
-So the flag has : emi7_s1_ in positions 21-28
+So the flag has : _1s_7ime in positions 21-28
 
 The entire flag is : y0u_w1l|_w4lk_wh3n_1t_1s_7ime_t0_w4lk;)
